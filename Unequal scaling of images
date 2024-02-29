@@ -1,8 +1,8 @@
 import os
 from PIL import Image
 
-input_folder = r"C:\Users\jiangran\Desktop\正方形制片人"
-output_folder = r"C:\Users\jiangran\Desktop\1024"
+input_folder = r"C:\Users\"
+output_folder = r"C:\Users\"
 
 if not os.path.exists(output_folder):
     os.makedirs(output_folder)
