@@ -1,8 +1,8 @@
 from PIL import Image
 import os
 
-input_dir = r"D:\worktimeline\2024.1.26-30序列帧模型\G合并所有的组\neardeath"
-output_dir = r"D:\worktimeline\2024.1.26-30序列帧模型\F对缺少的组进行反转\neardeath"
+input_dir = r"D:\worktimeline"
+output_dir = r"D:\worktimeline"
 
 if not os.path.exists(output_dir):
     os.makedirs(output_dir)
